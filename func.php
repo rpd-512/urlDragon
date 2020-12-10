@@ -1,7 +1,7 @@
 <?php
-$dbnm = "urlDragon";
-$dbus = "urlAdmin";
-$dbpw = "urlSHORTNER@39039820";
+$dbnm = "urlDragon";/*Database name*/
+$dbus = "";/*your mysql password*/
+$dbpw = "";/*your mysql password*/
 $pdo=new PDO('mysql:host=localhost;port=3306;dbname='.$dbnm.';',$dbus,$dbpw);
 
 function errMsgRedirect($msg,$loc)
