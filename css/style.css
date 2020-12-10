@@ -1,0 +1,72 @@
+body{background-color:black;}
+.dragon_001{border-radius:500px;width:75%;max-width:200px;transition: transform 1s ease-out;}
+.dragon_001:hover{transform: rotate(360deg);}
+h1{color:white;font-family:acme;font-size:50px;}
+button{font-family:acme;color:white;background-color:black;border:2px white solid;font-size:15px;outline: none;}
+button:hover{color:black;background-color:white;}
+input{font-size:20px;width:75%;border:3px white solid;outline: none;font-family:acme;}
+input[type="submit"]{color:white;background-color:black;width:80px;border:2px white solid}
+input[type="submit"]:hover{color:black;background-color:white;}
+input[type="button"]{color:white;background-color:black;width:80px;border:2px white solid}
+input[type="button"]:hover{color:black;background-color:white;}
+table{font-family:acme;color:white;font-size:25px;width:100%;margin-left:0px;}
+td{width:50%;text-align:center;}
+a{text-decoration:none;color:white;}
+a:hover{color:lightgreen;}
+hr{border-color:white;}
+span{display: inline-block;width: 400px;white-space: nowrap;overflow: hidden !important;text-overflow: ellipsis;}
+.heading td{font-size:35px;border:2px white solid;}
+.main_url{border-right:2px white solid;}
+.short_url{border-left:2px white solid;}
+.error{color:red;font-family:acme;font-size:20px;}
+.succs{color:lightgreen;font-family:acme;font-size:20px;}
+p{color:white;font-family:acme;font-size:20px;}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  font-size:15px;
+  z-index: 1;
+  bottom: 100%;
+  left: 75%;
+  margin-left: -200px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+  table{font-size:15px;}
+  span{width:100px;}
+  .heading td{font-size:20px;}
+  .tooltip .tooltiptext {margin-left: -100px;}
+}
+
