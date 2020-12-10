@@ -5,7 +5,13 @@ A "Page Not Found" file is also included, if requied, you may add that to htacce
 Enjoy !!
 
 Some Images:
-![image1](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_1.png)
-![image2](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_2.png)
-![image3](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_3.png)
-![image4](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_4.png)
+Home Page (home.php)
+![home.php](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_1.png)
+Sign Up (signup.php)
+![signup.php](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_2.png)
+Sign In (signin.php)
+![signin.php](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_3.png)
+After Login (index.php)
+![index.php](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_4.png)
+404 page (notfound.php)
+![Not Found](https://github.com/rpd-512/urlDragon/blob/main/exampleImages/img_5.png)
