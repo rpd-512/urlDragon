@@ -60,7 +60,7 @@ p{color:white;font-family:acme;font-size:20px;}
   visibility: visible;
 }
 
-
+.watermark{font-size:15px;bottom:0px;position:fixed;}
 
 
 @media screen and (max-width: 800px){
