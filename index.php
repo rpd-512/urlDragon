@@ -98,5 +98,6 @@ echo '<tr><td class="main_url"><div class="tooltip"><span>'.$acc.'</span><span c
 </table>
 <hr>
 </center>
+<p class='watermark'><a href='http://github.com/rpd-512'>RPD</a> productions</p>
 </body>
 </html>
