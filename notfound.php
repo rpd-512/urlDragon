@@ -16,5 +16,6 @@
 <img src='images/favicon.png' class='dragon_001'/><br>
 <input style='width:50%;max-width:200px;' type='button' value = 'Go To Home Page' onclick="window.location='home.php';">
 </center>
+<p class='watermark'><a href='http://github.com/rpd-512'>RPD</a> productions</p>
 </body
 </html>
