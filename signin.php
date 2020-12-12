@@ -60,5 +60,6 @@ input{width:50%;font-family:acme;}
 </form>
 <p style='color:red;'><?= $errMsg; ?></p>
 </center>
+<p class='watermark'><a href='http://github.com/rpd-512'>RPD</a> productions</p>
 </body>
 </html>
