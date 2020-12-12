@@ -91,7 +91,7 @@ while ($data = $raw_data->fetch(PDO::FETCH_ASSOC))
 {
 $acc = $data['mainUrl'];
 $shrt = $domloc."/?l=".$data['shortUrl'];
-echo '<tr><td class="main_url"><div class="tooltip">'.$acc.'<span class="tooltiptext">'.$acc.'</span></div></td><td class="short_url"><a href="'.$shrt.'"><span>'.$shrt.'</span></a></td><td><button value="'.$data['shortUrl'].'" name="dlt" type="submit">Delete?</button></td></tr>';
+echo '<tr><td class="main_url"><div class="tooltip"><span>'.$acc.'</span><span class="tooltiptext">'.$acc.'</span></div></td><td class="short_url"><a href="'.$shrt.'"><span>'.$shrt.'</span></a></td><td><button value="'.$data['shortUrl'].'" name="dlt" type="submit">Delete?</button></td></tr>';
 }
 ?>
 </form>
