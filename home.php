@@ -29,5 +29,6 @@ if($_GET['wrk'] == "snin"){header("Location: signin.php");}
 </form>
 <img src='images/favicon.png' class='dragon_001'/>
 </center>
+<p class='watermark'><a href='http://github.com/rpd-512'>RPD</a> productions</p>
 </body>
 </html>
